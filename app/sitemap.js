@@ -2,7 +2,7 @@
 const BASE_URL = 'https://m4ufree-hd.netlify.app/';
 
 export default async function sitemap() {
-  console.log('🎬 Generating dynamic sitemap for Movie Movies...');
+  console.log('🎬 Generating dynamic sitemap for M4ufree...');
   
   try {
     const [staticUrls, dynamicUrls] = await Promise.all([
