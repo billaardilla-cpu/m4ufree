@@ -103,7 +103,7 @@ export async function generateMetadata({ params }) {
     openGraph: {
       title: tvShowData.name,
       description: tvShowData.overview,
-      url: `https://moviemovies.vercel.app/tv-show/${slug}`,
+      url: `https://m4ufree-hd.netlify.app/tv-show/${slug}`,
       siteName: 'M4ufree',
       images: [{ url: socialImage, width: 1200, height: 630, alt: socialImageAlt }],
       locale: 'en_US',

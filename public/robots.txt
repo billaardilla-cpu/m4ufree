@@ -7,4 +7,4 @@ Disallow: /*?*
 Crawl-delay: 1
 
 # Sitemaps
-Sitemap: https://moviemovies.vercel.app/sitemap.xml
+Sitemap: https://m4ufree-hd.netlify.app/sitemap.xml

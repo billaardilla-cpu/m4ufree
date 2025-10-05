@@ -10,7 +10,7 @@ export const metadata = {
   openGraph: {
     title: 'M4ufree | Complete Movie & TV Series Database',
     description: 'Your ultimate destination for movies, TV series, actor profiles, and streaming information. Explore genres, yearly archives, and top rankings.',
-    url: 'https://moviemovies.vercel.app',
+    url: 'https://m4ufree-hd.netlify.app/',
     siteName: 'M4ufree',
     images: [
       {
@@ -42,7 +42,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
 	  <head>
         {/* Tag verifikasi Google Search Console */}
-        <meta name="google-site-verification" content="eEPUMvzvxR65u585W_13CsMCcpQ7cJe1DshqI1cq3Aw" />
+        <meta name="google-site-verification" content="Y0MYN7oD4LAko1ZbWFABJFHZLHiSTjDdcdctD_CqsZo" />
         {/* Schema.org markup untuk Movie Database */}
         <script
           type="application/ld+json"
@@ -52,10 +52,10 @@ export default function RootLayout({ children }) {
               "@type": "MovieDatabase",
               "name": "M4ufree",
               "description": "Complete movie and TV series database with streaming information",
-              "url": "https://moviemovies.vercel.app",
+              "url": "https://m4ufree-hd.netlify.app/",
               "logo": "https://live.staticflickr.com/65535/54832169112_4ca502c3a1_b.jpg",
               "sameAs": [
-                "https://moviemovies.vercel.app"
+                "https://m4ufree-hd.netlify.app/"
               ]
             })
           }}
@@ -72,7 +72,7 @@ export default function RootLayout({ children }) {
             </main>
             <footer className="w-full max-w-7xl mx-auto px-4 py-8">
               {/* Tempatkan div Native Banner di sini, sebelum Footer */}
-              <div id="container-5828cc06e116d6dcd698a74d88abcdc6"></div>
+              <div id="container-28928616f37f179768f80e48fc24fadd"></div>
               <Footer />
             </footer>
           </div>

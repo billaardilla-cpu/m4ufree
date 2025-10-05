@@ -1,5 +1,5 @@
 // app/sitemap.js - VERSI DINAMIS DENGAN ENV VARIABLES - FIXED
-const BASE_URL = 'https://moviemovies.vercel.app';
+const BASE_URL = 'https://m4ufree-hd.netlify.app/';
 
 export default async function sitemap() {
   console.log('🎬 Generating dynamic sitemap for Movie Movies...');
