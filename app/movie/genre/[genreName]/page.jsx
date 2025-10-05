@@ -14,17 +14,17 @@ export async function generateMetadata({ params }) {
   const genre = genres.find(g => g.name.toLowerCase().replace(/\s/g, '-') === genreName);
   const title = genre?.name || 'Unknown';
 
-  const pageUrl = `https://moviemovies.vercel.app/movie/genre/${genreName}`;
-  const imageUrl = 'https://live.staticflickr.com/65535/54804572135_3f755a60e7_b.jpg';
+  const pageUrl = `https://m4ufree-hd.netlify.app/movie/genre/${genreName}`;
+  const imageUrl = 'https://live.staticflickr.com/65535/54832169112_4ca502c3a1_b.jpg';
 
   return {
-    title: `123movies - ${title} Movies`,
-    description: `Find and watch the best ${title} movies for free on 123movies.`,
+    title: `M4ufree - ${title} Movies`,
+    description: `Find and watch the best ${title} movies for free on M4ufree.`,
     openGraph: {
-      title: `123movies - ${title} Movies`,
-      description: `Find and watch the best ${title} movies for free on 123movies.`,
+      title: `M4ufree - ${title} Movies`,
+      description: `Find and watch the best ${title} movies for free on M4ufree.`,
       url: pageUrl,
-      siteName: '123movies',
+      siteName: 'M4ufree',
       images: [
         {
           url: imageUrl,
@@ -40,8 +40,8 @@ export async function generateMetadata({ params }) {
       card: 'summary_large_image',
       site: '@WatchStream123',
       creator: '@WatchStream123',
-      title: `123movies - ${title} Movies`,
-      description: `Find and watch the best ${title} movies for free on 123movies.`,
+      title: `M4ufree - ${title} Movies`,
+      description: `Find and watch the best ${title} movies for free on M4ufree.`,
       images: [imageUrl],
     },
     other: {
